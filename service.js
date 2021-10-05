@@ -2,7 +2,7 @@ const ourServices = [
     {
     key: 3647424234,
     title: 'Principles of Accounting',
-    price: {value: 21.99, currency: 'USD'},
+    price: '21.99 USD',
     availability: 'in stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/6801680/pexels-photo-6801680.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
@@ -10,7 +10,7 @@ const ourServices = [
     {
     key: 2746243872,
     title: 'Principles of Management',
-    price: {value: 20.99, currency: 'USD'},
+    price: '20.99 USD',
     availability: 'in stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
@@ -18,7 +18,7 @@ const ourServices = [
     {
     key: 27642478259,
     title: 'Basic English',
-    price: {value: 18.99, currency: 'USD'},
+    price: '18.99 USD',
     availability: 'in stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
@@ -26,7 +26,7 @@ const ourServices = [
     {
     key: 23476723485,
     title: 'Introduction to Business',
-    price: {value: 13.99, currency: 'USD'},
+    price: '13.99 USD',
     availability: 'out of stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
@@ -34,7 +34,7 @@ const ourServices = [
     {
     key: 24253673535,
     title: 'Principles of Marketing',
-    price: {value: 22.99, currency: 'USD'},
+    price: '21.99 USD',
     availability: 'in stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/6229/marketing-board-strategy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
@@ -42,7 +42,7 @@ const ourServices = [
     {
     key: 2562895753,
     title: 'Economics',
-    price: {value: 21.99, currency: 'USD'},
+    price: '24.99 USD',
     availability: 'in stock',
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/9755376/pexels-photo-9755376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',

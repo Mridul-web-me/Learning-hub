@@ -8,12 +8,13 @@ import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
 
     <div className="App">
-      
+      <Nav></Nav>
     <BrowserRouter>
     <Switch>
       <Route path="/home">

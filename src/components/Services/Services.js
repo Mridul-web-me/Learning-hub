@@ -17,11 +17,13 @@ const Services = () => {
     return (
         <div>
            <h3>services :{services.length}</h3>
-           {
+            <div className="service-container">
+             {
                services.map(service => <Service key={service.key}
                service={service}
                > </Service>)
            }
+            </div>
         </div>
     )
 }
