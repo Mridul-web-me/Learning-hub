@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {BrowserRouter} from "react-router-dom";
+
 
 function Nav() {
     return (
         <div className="container">
-            <BrowserRouter> 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            
+            
+             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                   <Link className="navbar-brand" to="/home"><span>L</span>Hub</Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +31,7 @@ function Nav() {
                     </ul>
                   </div>
                 </div>
-              </nav>
-              </BrowserRouter>
+                </nav> 
         </div>
     )
 }

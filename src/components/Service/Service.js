@@ -8,7 +8,7 @@ function Service(props) {
         padding: '10px',
         borderRadius: '10px',
         margin: '5px',
-        height: '550px'
+        height: '600px'
     }
     return (
         <div className="container">
@@ -18,9 +18,9 @@ function Service(props) {
             <p>Availablity: {availability}</p>
             <h2>Country: {country} </h2>
             <p>Price: {price}</p>
-            
+            <Button>Buy Now</Button>
         </div>
-        <Button>Buy Now</Button>
+        
         </div>
     )
 }

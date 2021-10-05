@@ -47,4 +47,27 @@ const ourServices = [
     country: 'Bangladesh',
     img: 'https://images.pexels.com/photos/9755376/pexels-photo-9755376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 },
+{  key: 4532535353,
+    title: 'Physics',
+    price: '26.99 USD',
+    availability: 'in stock',
+    country: 'Bangladesh',
+    img: 'https://images.pexels.com/photos/68173/flash-tesla-coil-experiment-faradayscher-cage-68173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+},
+    {
+        key: 645325353,
+        title: 'Chemistry',
+        price: '28.99 USD',
+        availability: 'out of stock',
+        country: 'Bangladesh',
+        img: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+    },
+    {  key: 97689453535,
+        title: 'Mathematics',
+        price: '32.99 USD',
+        availability: 'in stock',
+        country: 'Bangladesh',
+        img:'https://images.pexels.com/photos/3768126/pexels-photo-3768126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+    },
+
 ];

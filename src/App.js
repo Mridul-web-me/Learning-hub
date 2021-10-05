@@ -9,13 +9,15 @@ import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
 
     <div className="App">
-      <Nav></Nav>
+      
     <BrowserRouter>
+    <Nav></Nav>
     <Switch>
       <Route path="/home">
       <Home></Home>
@@ -36,6 +38,7 @@ function App() {
       <NotFound></NotFound>
       </Route>
     </Switch>
+    <Footer></Footer>
     </BrowserRouter>
      </div>
   );
