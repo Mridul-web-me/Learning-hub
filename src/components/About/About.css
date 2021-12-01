@@ -74,18 +74,26 @@ i.fas.fa-quote-left {
 
 }
 
-.program-content button{
+.program-content button {
     background: #db545a;
     border: none;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
 }
-.program-heading{
+
+.program-heading {
     width: 100%;
     border-bottom: 5px solid #db545a;
     margin: 10px 0;
 }
+
 .img-gallery {
     margin: 20px 0;
+}
+
+i.fab {
+    color: #db545a;
+    padding: 10px;
+    font-size: 30px;
 }

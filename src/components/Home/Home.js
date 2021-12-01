@@ -1,23 +1,17 @@
 import React from 'react'
-import './Home.css'
+import About from '../About/About';
+import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
+import Services from '../Services/Services';
+
 
 const Home = () => {
   return (
     <div>
-        <div className="container">
-              <div className="banner">
-                  <div className="banner-content">
-                    <img src="img/baner.jpg" alt=""/>
-                    <div className="bgShape">
-                  </div>
-                  <div className="text-content">
-                      <h1>Welcome!</h1>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                      <button>Learn More</button>
-                  </div>
-              </div>
-        </div>
-    </div>
+      <Banner></Banner>
+      <About></About>
+      <Services></Services>
+      <Contact></Contact>
     </div>
   )
 }
